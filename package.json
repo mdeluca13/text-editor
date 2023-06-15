@@ -1,10 +1,10 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Text Editor PWA that is able to be accessed offline.",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
+    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\"",
     "start": "",
     "server": "",
     "build": "",
