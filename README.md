@@ -8,7 +8,7 @@ I was able to demonstrate what I have learned throughout the Carleton University
 
 ## Installation
 
-You will need to install [node.JS](https://nodejs.org/en/download)
+You will need to install [node.JS](https://nodejs.org/en/download).
 
 You will also have to install the package.json file through npm run install.
 
@@ -16,6 +16,7 @@ You will also have to install the package.json file through npm run install.
 
 - You can use the application online or offline by typing into the text editor.
 - You can use the install button to install the PWA to your device.
+- You can visit the deployed app [here](https://mdeluca-text-editor-54b25a117244.herokuapp.com/).
 
 ![JATE Homepage](./images/homepage.png)
 
