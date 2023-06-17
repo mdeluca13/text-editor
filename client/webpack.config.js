@@ -3,18 +3,22 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
+
 module.exports = () => {
   return {
     mode: 'development',
     entry: {
+      // entry points
       main: './src/js/index.js',
       install: './src/js/install.js'
     },
     output: {
+      // outputs for bundles
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+      // webpack plugins
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'JATE: Just Another Text Editor'
@@ -45,6 +49,7 @@ module.exports = () => {
 
     module: {
       rules: [
+        // loaders
         {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
