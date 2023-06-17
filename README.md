@@ -8,7 +8,7 @@ I was able to demonstrate what I have learned throughout the Carleton University
 
 ## Installation
 
-You will need to install [node.JS](https://nodejs.org/en/download). 
+You will need to install [node.JS](https://nodejs.org/en/download)
 
 You will also have to install the package.json file through npm run install.
 
